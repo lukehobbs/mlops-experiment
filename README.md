@@ -4,9 +4,9 @@
     ```
     brew install python@3.9
     ```
- - Install [Jupyter Notebook](https://jupyter.org/install#jupyterlab)
+ - Install requirements
     ```
-    pip3.9 install jupyterlab 
+    pip install -r requirements.txt
     ```
 ## The Project
  - Run [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/)
