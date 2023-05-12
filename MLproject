@@ -1,0 +1,8 @@
+name: mlops-experiment
+
+docker_env:
+  image:  mlops-experiment
+
+entry_points:
+  main:
+    command: "python train.py"

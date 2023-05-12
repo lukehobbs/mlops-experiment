@@ -13,3 +13,28 @@
     ```
     jupyter-lab
     ```
+
+## MLFlow
+
+## Prerequisites:
+ - Install zlib (fixed an error for me)
+   ```
+   brew install zlib
+   ```
+
+## Commands
+   ```
+   # Build
+   $ docker build -t mlops-experiment -f Dockerfile .
+
+   # Train and register model
+   $ mlflow run . --build-image
+
+   # Serve model locally
+   $ ./serve.sh
+
+   # Inference
+   $ curl http://127.0.0.1:5000/invocations \
+      -H 'Content-Type: application/json'   \
+      -d '{}' 
+   ```
