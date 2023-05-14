@@ -34,7 +34,7 @@
    $ ./serve.sh
 
    # Inference
-   $ curl http://127.0.0.1:5000/invocations \
+   $ curl http://127.0.0.1:5001/invocations \
       -H 'Content-Type: application/json'   \
-      -d '{}' 
+      -d '{"inputs":[[0.1,0.1,0.1,0.1],[0.1,0.1,0.1,0.1],[0.1,0.1,0.1,0.1],[10,10,10000,1000],[0.1,0.1,0.1,0.1],[0.1,0.1,0.1,0.1]]}' 
    ```

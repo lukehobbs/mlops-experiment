@@ -1,2 +1,5 @@
 .ipynb_checkpoints/
 .DS_Store
+mlruns/.trash/
+mlruns/0/
+mlruns/models/
